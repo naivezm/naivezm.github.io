@@ -1,1006 +1,647 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-CN">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.0.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg?v=6.0.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg?v=6.0.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.0.4" color="#222">
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    version: '6.0.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-  
-
-
-
-
-  
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="理论原子分子研究组">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="理论原子分子研究组">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="理论原子分子研究组">
-
-
-
-
-
-
-  <link rel="canonical" href="http://yoursite.com/"/>
-
-
-
-<script type="text/javascript" id="page.configurations">
-  CONFIG.page = {
-    sidebar: "",
-  };
-</script>
-  <title>理论原子分子研究组</title>
-  
-
-
-
-
-
-
-
-
-
-  <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
-
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
-
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"> <div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">理论原子分子研究组</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle">陕西师范大学</p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />研究组成员</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-pages">
-          <a href="/categories/pages" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />已发表文章</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />最新动态</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/categories/schedule" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />研究组活动</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />下载专区</a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/commonweal/" rel="section">
-            <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />联系我们</a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-  
-
-
-
- </div>
-    </header>
-
-    
-
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/19/课题组活动/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jack Wang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="理论原子分子研究组">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/02/19/课题组活动/" itemprop="url">课题组活动</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-19T12:41:42+08:00">2018-02-19</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/schedule/" itemprop="url" rel="index"><span itemprop="name">研究组活动</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          研究组活动
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/02/19/课题组活动/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/18/first-page/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jack Wang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="理论原子分子研究组">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/02/18/first-page/" itemprop="url">first page</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-18T15:53:13+08:00">2018-02-18</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/pages/" itemprop="url" rel="index"><span itemprop="name">已发表文章</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          专利第一篇专利
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/02/18/first-page/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/14/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jack Wang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="理论原子分子研究组">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/02/14/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-14T12:51:30+08:00">2018-02-14</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/02/14/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="http://om0ttwn6c.bkt.clouddn.com/15110572757424910%20%282%29.jpg"
-                alt="Jack Wang" />
-            
-              <p class="site-author-name" itemprop="name">Jack Wang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives/">
-                
-                    <span class="site-state-item-count">3</span>
-                    <span class="site-state-item-name">日志</span>
-                  </a>
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-categories">
-                  
-                    
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">分类</span>
-                  
-                </div>
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
-                    
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
-              
-            </nav>
-          
-
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-            
-          
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Jack Wang</span>
-
-  
-
-  
-</div>
-
-
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Muse</a> v6.0.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=6.0.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=6.0.4"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.4"></script>
-
-
-
-  
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.ico">
+		<title>锦程蓝图</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+		<link href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css"  rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo.png" alt="Lattes theme logo"></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">公司简介</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#services">产品与服务</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#portfolio">硬件工程案例</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#team">主要客户群</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="slider-container">
+					<div class="intro-text">
+						<div class="intro-heading">生态化智慧校园建设</div>
+						<div class="intro-lead-in">ECOLOGICAL INTELLIGENT CAMPUS CONSTRUCTION</div>
+						
+						<a href="#about" class="page-scroll btn btn-xl">了解更多</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="about" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>公司简介</h2>
+							<p>湖南锦程蓝图文化传媒有限公司，注册资金 3000 万，公司积极响应国家政策号召，自颁布《 国家中长期教育改革和发展纲要 》和《 教育信息化十年发展规划 》以来企业专注于智慧校园，生态，校园整体建设，策划设计与实施，强调围绕 “教”、“字”、“研”、“管” 的理念，打造创新性，生态性校园的专业公司。</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-book ot-circle"></i>
+							<h3>创新</h3>
+							<p>公司拥有多项专利技术以及多个研究团队，创新是我们发展的不竭动力</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-lock ot-circle"></i>
+							<h3>安全</h3>
+							<p>安全始终是我们的宗旨，产品经过严格的出场检测后才会投入市场</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-heart ot-circle"></i>
+							<h3>优质</h3>
+							<p>质量过硬的产品和专业的售后服务团队代表着我们对优质的承诺</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-cube ot-circle"></i>
+							<h3>简单</h3>
+							<p>简单不代表简陋，快速的上手体验，较低的学习成本使得用户能够专注教学过程</p>
+						</div>
+					</div>
+					<!-- end about module -->
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<section >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="skills-text">
+							<h2>企业文化</h2>
+							<p>公司肩负科技兴国使命，担起为国育才之责，为中国教育事业发展注进了新的活力，做出了应有的贡献。<br><br>本公司精确分析市场，将教学资源共享，个性学习，互动学习，移动学习，智能决策，支持大规模
+								师生应用，全面满足教学，学习，沟通，管理等学校建设需求；打造独居特色的“云+端一体化智慧”模块，独立化的综合性解决端围绕感知通过端，资源服务依赖云，智慧应用管理服务人，建设具有前瞻性、安全性、易操作、易维护、易管理、个性凸显的智慧校园。
+								</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar-score">
+								<span class="score">90</span><span class="percent">%</span>
+							</div>
+							<div class="skillbar" data-percent="90%">
+								<h3>Education</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 90%;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar-score">
+								<span class="score">80</span><span class="percent">%</span>
+							</div>
+							<div class="skillbar" data-percent="80%">
+								<h3>Development</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 80%;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar-score">
+								<span class="score">85</span><span class="percent">%</span>
+							</div>
+							<div class="skillbar" data-percent="85%">
+								<h3>Technology</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 85%;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar-score">
+								<span class="score">70</span><span class="percent">%</span>
+							</div>
+							<div class="skillbar" data-percent="70%">
+								<h3>Marketing</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 70%;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="overlay-dark bg-img1 dark-bg short-section" id="services">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 data-count="59">30+</h2>
+							<h6>合作伙伴</h6>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 data-count="1054">200+</h2>
+							<h6>产品</h6>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 data-count="34">20+</h2>
+							<h6>团队</h6>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 data-count="154">100+</h2>
+							<h6>项目</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="light-bg">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>硬件工程案例</h2>
+						<p>公司产品的具体实施展示</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>电脑室</h2>
+								<p>Computer Room</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>智慧教室</h2>
+								<p>Smart Classroom</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>VR制作室</h2>
+								<p>VR Production Room</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+			</div>
+			<div class="row">
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>互动课堂</h2>
+								<p>Interactive classroom</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>心理健康中心</h2>
+								<p>Mental Health Center</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
+							<figcaption>
+								<h2>录播教室</h2>
+								<p>Recording Classroom</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-6">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+			</div>
+			</div><!-- end container -->
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>特色产品</h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-1.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-2.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-3.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-4.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-5.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-6.jpg" alt="partners"></div>
+							</div>
+							<div class="item">
+								<div class="partner-logo"><img src="images/demo/partners-7.jpg" alt="partners"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="team" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>主要客户群</h2>
+							<p>我们的产品面向多个不同领域的客户，包含从中小学，职业教育，到大学教育的各个阶段的不同人群</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- team member item -->
+					<div class="col-md-3">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="images/demo/author-2.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>中小学教育</h3>
+								<div class="team-location">Primary and secondary education</div>
+								<div class="team-position">– Future –</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+					<!-- team member item -->
+					<div class="col-md-3">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="images/demo/author-6.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>职业教育</h3>
+								<div class="team-location">Vocational education</div>
+								<div class="team-position">– Technology –</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+					<!-- team member item -->
+					<div class="col-md-3">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="images/demo/author-3.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>大学教育</h3>
+								<div class="team-location">College education</div>
+								<div class="team-position">– Development –</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+					<!-- team member item -->
+					<div class="col-md-3">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="images/demo/author-4.jpg" class="img-responsive" alt="author">
+							</div>
+							<div class="team-text">
+								<h3>个性化培训</h3>
+								<div class="team-location">Personalized training</div>
+								<div class="team-position">– Marketing –</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>联系我们</h2>
+							<p>如果你们有任何需要请联系我们<br>我们将竭诚为您服务</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" style="text-align:center">
+						<h3>公司地址</h3>
+						<p>长沙市天心区雀园路568号[创骨长沙产业园] A1栋 11 楼</p>
+						<p><i class="fa fa-phone"></i>    0731-82199978</p>
+						<!-- <p><i class="fa fa-envelope"></i> mail@yourcompany.com</p> -->
+					</div>
+					<!-- <div class="col-md-3">
+						<h3>营业时间</h3>
+						<p><i class="fa fa-clock-o"></i> <span class="day">Weekdays:</span><span>9am to 8pm</span></p>
+						<p><i class="fa fa-clock-o"></i> <span class="day">Saturday:</span><span>9am to 2pm</span></p>
+						<p><i class="fa fa-clock-o"></i> <span class="day">Sunday:</span><span>Closed</span></p>
+					</div> -->
+					<!-- <div class="col-md-6">
+						<form name="sentMessage" id="contactForm" novalidate="">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<div id="success"></div>
+									<button type="submit" class="btn">Send Message</button>
+								</div>
+							</div>
+						</form>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<p id="back-top">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+		<footer>
+			<div class="container text-center">
+				<p>Designed by <span>JINCHENG</span>LANTU</a></p>
+			</div>
+		</footer>
+
+		<!-- Modal for portfolio item 1 -->
+		<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-1">电脑室</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>科技</span><span>教育</span></div>
+						<p>当今社会飞速发展，电脑是我们中不可缺少的好伙伴。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 2 -->
+		<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="Modal-label-2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-2">智慧教室</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>科技</span><span>教育</span></div>
+						<p>智慧教室是一种新型的教育形式，有别于传统授听课方式；课前学生提前预习，课中学习分组讨论，随时测试，教师能快速掌握每位学生学习情况，并进行针对性指导。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 3 -->
+		<div class="modal fade" id="Modal-3" tabindex="-1" role="dialog" aria-labelledby="Modal-label-3">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-3">VR制作室</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/portfolio-3.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>科技</span><span>教育</span></div>
+						<p>虚拟现实技术是一种可以创建和体验虚拟世界的计算机仿真系统，它利用计算机生成一种模拟环境，是一种多源信息融合的、交互式的三维动态视景和实体行为的系统仿真使用户沉浸到该环境中。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 4 -->
+		<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-4">互动课堂</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>科技</span><span>教育</span></div>
+						<p>“互动式”教学是一种教学模式，就是把教育活动看作是师生进行一种生命与生命的交往、沟通，把教学过程看作是一个动态发展着的教与学统一的交互影响和交互活动过程。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal for portfolio item 5 -->
+		<div class="modal fade" id="Modal-5" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-5">心理健康中心</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/portfolio-5.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>科技</span><span>教育</span></div>
+						<p>心理教育对学生的发展有着深远的影响。</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+				<!-- Modal for portfolio item 5 -->
+				<div class="modal fade" id="Modal-6" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="Modal-label-6">录播教室</h4>
+							</div>
+							<div class="modal-body">
+								<img src="images/demo/portfolio-6.jpg" alt="img01" class="img-responsive" />
+								<div class="modal-works"><span>科技</span><span>教育</span></div>
+								<p>录播系统可以把现场摄录的视频、音频、电子设备的图像信号（包含电脑、视频展台等）进行整合同步录制，生成标准化的流媒体文件，用来对外直播、存储、后期编辑、点播。</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+		<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
+		<script src="https://cdn.bootcss.com/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/theme-scripts.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+	</body>
 </html>
